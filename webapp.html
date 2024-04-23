@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Website</title>
+    <link rel="stylesheet" href="webapp.css">
+</head>
+
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#article">Web Technology Article</a></li>
+                <li><a href="#quiz">Quiz</a></li> <!-- Added link to quiz -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Shikhar Pathak
+                I am currently pursuing B.tech. computer science from UPES.
+                I have a good skill set in HTML, CSS, Javascript, Python, C++, SQL.
+                And i know the functionalities of the libraries NumPy, Pandas, OpenCV, Speech Recognition,
+                google-text-to-speech(gtts), ipywidgets, pywhatkit, pyAudio, spacy, pymysql, plotly, pdfminer3,
+                geocoder, streamlit, transformers(basic), Transformers, Scikit Learn, matplotlib.
+            </p>
+        </section>
+
+        <section id="article">
+            <h2>Web Technology Article</h2>
+            <article>
+                The full form of Html is Hyper Text Markup Language.
+                html waas made in 1993 by Tim Berners-Lee and was official in 1999
+                The HTML has many tags and can be divided into 3 parts -: semantic, structural and formatting.
+                The heading tag is from h1 to h7 and after thatany heading tag is treated as a paragh tag.
+                The font and boldness gets less from h1 to h7.
+                Between the two html tags anything thats written is called content and the whole thing is called
+                element.The current specification is known as the HTML Living
+                Standard and is maintained by a consortium of the major
+                browser vendors (Apple, Google, Mozilla, and Microsoft), the
+                Web Hypertext Application Technology Working Group
+                (WHATWG)
+                Links –These mark a hyperlink around link text. When click by
+                user, browser loads the page in the HREF attribute.
+                Target attribute, indicates which window/tab should be used
+                for the linked page
+                target=“_self ” – Default. Place the content in the current tab
+                target=“_blank” – Place the content in a newly created tab.
+                <IMG> -Will display an image
+                Image file must be in a popular graphics format (gif, jpg, png, etc)
+                Format :
+                IMG src=“url for image file” width=#, height=#, alt=“Text to display
+                Semantic tags are for putting content in the page.
+                Stucture tags aren to add some base to the page.
+                Formatting tags are used for some styling in the page.
+            </article>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <div id="quiz-container">
+                <!-- Quiz questions and options will be added dynamically using JavaScript -->
+            </div>
+            <button id="submit-quiz">Submit Quiz</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Name</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Include script.js for quiz functionality -->
+</body>
+
+</html>
